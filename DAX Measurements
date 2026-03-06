@@ -1,0 +1,6 @@
+- What percent of employees in the research and development department work overtime?
+% of Employees in R&D Who Work Overtime = CALCULATE(COUNTROWS('Table'), 'Table'[Department] = "Research & Development", 'Table'[OverTime] = "Yes") / 
+CALCULATE(COUNTROWS('Table'), 'Table'[Department] = "Research & Development")
+
+- What is the number of former employees?
+Number of Attrition Employee = CALCULATE(COUNTROWS('Table'), 'Table'[Attrition] = "Yes")
