@@ -7,14 +7,14 @@ reducing the costs and efforts of hiring and training of the new employees.
 - Rows: 1470
 - Used Fields: Attrition, Department, Employee Number, Environment Satisfaction, Job Satisfaction, Overtime, Relationship Satisfaction.
 
-4) Tools Used:
+3) Tools Used:
 - Microsoft Excel: Data cleaning
 - Microsoft Power BI: trend identification, data visualization and DAX measures
 
-6) Data Cleaning:
+4) Data Cleaning:
 Checked for any duplicate rows, spelling errors or inconsistent formats
 
-7) Analysis:
+5) Analysis:
 - former employees vs total employees
 - Overtime vs regular-hour former employees
 - number of employees by department
@@ -22,7 +22,7 @@ Checked for any duplicate rows, spelling errors or inconsistent formats
 - attrition by department (percentage)
 - Job, environment, and relationship satisfaction scores of former employees in R&D
 
-8) Key Insights:
+6) Key Insights:
 - Working overtime increases job attrition
 - The highest percentage of job attrition was in the research & development department
 - A significant portion of former employees in the research & development department were dissatisfied with their job, relationships and environment in the workplace.
